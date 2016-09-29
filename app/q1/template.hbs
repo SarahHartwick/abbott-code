@@ -1,0 +1,37 @@
+<div class="question-main">
+  <div class="col-sm-6">
+      <div class="video-container">
+        <video id="q1video" src="/assets/videos/brain.mp4" autoplay loop></video>
+      </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="question-box">
+      <div class="quiz-question">
+        <h4>Who has more synaptic connections?</h4>
+        <button class="answer-button first" {{action "flipIncorrect"}}><span class="letter-choice">A.</span>A newborn</button>
+        <button class="answer-button first" {{action "flipCorrect"}}><span class="letter-choice">B.</span>A toddler</button>
+        <button class="answer-button first" {{action "flipIncorrect"}}><span class="letter-choice">C.</span>An adult</button>
+      </div>
+      <div class="correct-answer-hidden">
+        <div class="quiz-answer">
+          <h5>CORRECT!</h5>
+          <h6>Answer: B, A Toddler</h6>
+          <p>700 new neural connections are formed every second in the first 2 years of life.</p>
+        </div>
+        <div class="video">
+          <video id="q1video" src="/assets/videos/similac1.mp4" autoplay loop></video>
+        </div>
+      </div>
+      <div class="incorrect-answer-hidden">
+        <div class="quiz-answer">
+          <h5>INCORRECT</h5>
+          <h6>Answer: B, A Toddler</h6>
+          <p>700 new neural connections are formed every second in the first 2 years of life.</p>
+        </div>
+        <div class="video">
+          <video id="q1video" src="/assets/videos/similac1.mp4" autoplay></video>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+<div class="question-main">
+  <!-- {{brain-left}} -->
+  <div class="col-sm-6">
+    <div class="video-container">
+      <video id="q1video" src="/assets/videos/brain.mp4" autoplay loop></video>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="question-box">
+      <div class="quiz-question">
+        <h4>Human intelligence is associated with:</h4>
+        <button class="answer-button second" {{action "flipCorrect"}}><span class="letter-choice">A.</span>More brain connections</button>
+        <button class="answer-button second" {{action "flipIncorrect"}}><span class="letter-choice">B.</span>Fewer brain connections</button>
+        <button class="answer-button" {{action "flipIncorrect"}}><span class="letter-choice">C.</span>Neither. Human intelligence is not associated with brain connections.</button>
+      </div>
+      <div class="correct-answer-hidden">
+        <div class="quiz-answer">
+          <h5>CORRECT!</h5>
+          <h6>Answer: A, More Connections</h6>
+          <p>Recent research suggests that global connectivity of the prefrontal cortex predicts cognitive control and intelligence.</p>
+        </div>
+        <div class="video">
+          <video id="q2video" src="/assets/videos/similac2.mp4" autoplay loop></video>
+        </div>
+      </div>
+      <div class="incorrect-answer-hidden">
+        <div class="quiz-answer">
+          <h5>INCORRECT</h5>
+          <h6>Answer: A, More Connections</h6>
+          <p>Recent research suggests that global connectivity of the prefrontal cortex predicts cognitive control and intelligence.</p>
+        </div>
+        <div class="video">
+          <video id="q2video" src="/assets/videos/similac2.mp4" autoplay></video>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
